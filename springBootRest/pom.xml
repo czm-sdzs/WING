@@ -1,0 +1,63 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>com.stephen</groupId>
+  <artifactId>springBootRest</artifactId>
+  <version>0.0.1-SNAPSHOT</version>
+  
+    <properties>
+       <java.version>1.8</java.version>
+       <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <tomcat-jdbc.version>7.0.52</tomcat-jdbc.version>
+        <jdbc.driver.version>5.1.39</jdbc.driver.version>
+    </properties>
+   
+    <!-- Spring Boot -->
+    <parent>
+        <groupId>org.springframework.boot</groupId>
+        <artifactId>spring-boot-starter-parent</artifactId>
+        <version>1.4.0.RELEASE</version>
+    </parent>
+
+   <dependencies>
+       <!-- spring boot 依赖-->
+       <dependency>
+           <groupId>org.springframework.boot</groupId>
+           <artifactId>spring-boot-starter-web</artifactId>
+
+       </dependency>
+
+       <dependency>
+           <groupId>mysql</groupId>
+           <artifactId>mysql-connector-java</artifactId>
+           <version>${jdbc.driver.version}</version>
+           <scope>runtime</scope>
+       </dependency>
+       <!-- 引入mybatis的starter的包  Spring Boot将封装的一系列支持boot的应用
+       的工程都叫做starter，我们这里引入mybatis对boot的支持的starter .
+       如果是同一个的pom，要注释掉mybatis的依赖，starter会自动引入依赖包。-->
+       <dependency>
+           <groupId>org.mybatis.spring.boot</groupId>
+           <artifactId>mybatis-spring-boot-starter</artifactId>
+           <version>1.1.1</version>
+       </dependency>
+
+       <!-- 添加kafka依赖-->
+       <dependency>
+           <groupId>org.apache.kafka</groupId>
+           <artifactId>kafka_2.10</artifactId>
+           <version>0.10.0.0</version>
+       </dependency>
+   </dependencies>
+
+
+    <build>
+        <plugins>
+            <plugin>
+                <groupId>org.springframework.boot</groupId>
+                <artifactId>spring-boot-maven-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+   
+</project>
