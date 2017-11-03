@@ -2,41 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="e8c8ea34-335f-4c6e-92d2-107350524c53" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/resource/hadoop/hadoop.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Java/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Java/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Java/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Java/bin/stephen/com/convert/Time.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/Java/src/stephen/com/convert/Time.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/demo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/src/main/java/javo/Collections.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/src/main/java/javo/Sort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/demo/target/classes/javo/Collections.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/src/main/java/KafkaTest/KafkaTest/KafkaConsumer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/src/main/java/KafkaTest/KafkaTest/KafkaConsumerProducerDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/src/main/java/KafkaTest/KafkaTest/KafkaProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/src/main/java/KafkaTest/KafkaTest/KafkaProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/src/test/java/KafkaTest/KafkaTest/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/target/classes/KafkaTest/KafkaTest/KafkaConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/target/classes/KafkaTest/KafkaTest/KafkaConsumerProducerDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/target/classes/KafkaTest/KafkaTest/KafkaProducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/target/classes/KafkaTest/KafkaTest/KafkaProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/target/classes/META-INF/maven/KafkaTest/KafkaTest/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/target/classes/META-INF/maven/KafkaTest/KafkaTest/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/KafkaTest/target/test-classes/KafkaTest/KafkaTest/AppTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/project/kafkatest/Kafka本地伪集群.rar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/JavaUtil/.idea/workspace.xml" afterPath="$PROJECT_DIR$/project/JavaUtil/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/JavaUtil/JavaUtil.iml" afterPath="$PROJECT_DIR$/project/JavaUtil/JavaUtil.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/JavaUtil/src/main/java/com/stephen/apache/kafka/KafkaConsumer.java" afterPath="$PROJECT_DIR$/project/JavaUtil/src/main/java/com/stephen/apache/kafka/KafkaConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/JavaUtil/src/main/java/com/stephen/apache/kafka/KafkaProducer.java" afterPath="$PROJECT_DIR$/project/JavaUtil/src/main/java/com/stephen/apache/kafka/KafkaProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/springBootMybatisweb/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="$PROJECT_DIR$/project/springBootMybatisweb/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/project/springBootMybatisweb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/project/springBootMybatisweb/.idea/workspace.xml" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -48,38 +18,7 @@
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="hadoop.txt" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/resource/hadoop/hadoop.txt">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="19">
-              <caret line="1" column="0" lean-forward="false" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="JavaUtil.iml" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/project/JavaUtil/JavaUtil.iml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="scratch.java" pinned="false" current-in-tab="false">
-        <entry file="file://$APPLICATION_CONFIG_DIR$/scratches/scratch.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="0">
-              <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -89,6 +28,7 @@
     </option>
   </component>
   <component name="Git.Settings">
+    <option name="UPDATE_TYPE" value="REBASE" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
@@ -102,6 +42,15 @@
         <option value="$PROJECT_DIR$/resource/hadoop/hadoop.txt.fxml" />
         <option value="$PROJECT_DIR$/resource/hadoop/hadoop.txt" />
       </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\files\mavenlib" />
+        <option name="mavenHome" value="E:/dev_tools/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\dev_tools\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
     </option>
   </component>
   <component name="ProjectFrameBounds">
@@ -140,38 +89,6 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WING" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WING" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
-          <PATH>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WING" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="WING" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="resource" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-            <PATH_ELEMENT>
-              <option name="myItemId" value="hadoop" />
-              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
-            </PATH_ELEMENT>
-          </PATH>
         </subPane>
       </pane>
       <pane id="Scope" />
@@ -182,6 +99,7 @@
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$2/Languages" value="JAVA" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -486,13 +404,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/resource/mysql/table_data/aotian.sql">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/resource/hadoop/hadoop.txt">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="19">
@@ -558,6 +469,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/resource/mysql/table_data/aotian.sql">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="171">
+          <caret line="9" column="11" lean-forward="false" selection-start-line="9" selection-start-column="11" selection-end-line="9" selection-end-column="11" />
           <folding />
         </state>
       </provider>

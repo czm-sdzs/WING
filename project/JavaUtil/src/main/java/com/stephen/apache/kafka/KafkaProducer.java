@@ -1,8 +1,10 @@
 package com.stephen.apache.kafka;
 
+
+import kafka.producer.KeyedMessage;
+import kafka.producer.ProducerConfig;
+
 import java.util.Properties;
-
-
 
 /**
 * @author leicui bourne_cui@163.com

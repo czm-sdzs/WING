@@ -2,41 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8980f1dd-465b-4e66-908b-f044441ef7e8" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/../../resource/hadoop/hadoop.txt" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/bin/stephen/com/convert/Time.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../Java/src/stephen/com/convert/Time.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/.idea/compiler.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/.idea/misc.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/.idea/modules.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/.idea/workspace.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/demo.iml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/src/main/java/javo/Collections.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/src/main/java/javo/Sort.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../demo/target/classes/javo/Collections.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/.classpath" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/.project" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/.settings/org.eclipse.core.resources.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/.settings/org.eclipse.jdt.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/.settings/org.eclipse.m2e.core.prefs" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/src/main/java/KafkaTest/KafkaTest/KafkaConsumer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/src/main/java/KafkaTest/KafkaTest/KafkaConsumerProducerDemo.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/src/main/java/KafkaTest/KafkaTest/KafkaProducer.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/src/main/java/KafkaTest/KafkaTest/KafkaProperties.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/src/test/java/KafkaTest/KafkaTest/AppTest.java" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/target/classes/KafkaTest/KafkaTest/KafkaConsumer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/target/classes/KafkaTest/KafkaTest/KafkaConsumerProducerDemo.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/target/classes/KafkaTest/KafkaTest/KafkaProducer.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/target/classes/KafkaTest/KafkaTest/KafkaProperties.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/target/classes/META-INF/MANIFEST.MF" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/target/classes/META-INF/maven/KafkaTest/KafkaTest/pom.properties" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/target/classes/META-INF/maven/KafkaTest/KafkaTest/pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/KafkaTest/target/test-classes/KafkaTest/KafkaTest/AppTest.class" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/../kafkatest/Kafka本地伪集群.rar" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaUtil/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../JavaUtil/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaUtil/JavaUtil.iml" afterPath="$PROJECT_DIR$/../JavaUtil/JavaUtil.iml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaUtil/src/main/java/com/stephen/apache/kafka/KafkaConsumer.java" afterPath="$PROJECT_DIR$/../JavaUtil/src/main/java/com/stephen/apache/kafka/KafkaConsumer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../JavaUtil/src/main/java/com/stephen/apache/kafka/KafkaProducer.java" afterPath="$PROJECT_DIR$/../JavaUtil/src/main/java/com/stephen/apache/kafka/KafkaProducer.java" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" afterPath="$PROJECT_DIR$/.idea/libraries/Maven__junit_junit_3_8_1.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
@@ -53,18 +24,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="76">
-              <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="17" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="index.jsp" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/webapp/index.jsp">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="5" column="0" lean-forward="false" selection-start-line="5" selection-start-column="0" selection-end-line="5" selection-end-column="0" />
+            <state relative-caret-position="268">
+              <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
               <folding />
             </state>
           </provider>
@@ -88,6 +49,13 @@
     </option>
   </component>
   <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="localRepository" value="E:\files\mavenlib" />
+        <option name="mavenHome" value="E:/dev_tools/apache-maven-3.3.9" />
+        <option name="userSettingsFile" value="E:\dev_tools\apache-maven-3.3.9\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
     <option name="importingSettings">
       <MavenImportingSettings>
         <option name="importAutomatically" value="true" />
@@ -104,6 +72,20 @@
         <PATH_ELEMENT>
           <option name="myItemId" value="springBootMybatis Maven Webapp" />
           <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+      </PATH>
+      <PATH>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$RootNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="springBootMybatis Maven Webapp" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$ProjectNode" />
+        </PATH_ELEMENT>
+        <PATH_ELEMENT>
+          <option name="myItemId" value="Plugins" />
+          <option name="myItemType" value="org.jetbrains.idea.maven.navigator.MavenProjectsStructure$PluginsNode" />
         </PATH_ELEMENT>
       </PATH>
     </treeState>
@@ -176,13 +158,45 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
           </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBootMybatisweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBootMybatisweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBootMybatisweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="springBootMybatisweb" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
         </subPane>
       </pane>
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="last_opened_file_path" value="$PROJECT_DIR$/../Java/.project" />
-    <property name="settings.editor.selected.configurable" value="reference.settings.project.maven.testRunning" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
     <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -505,7 +519,7 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="754" extended-state="6" />
+    <frame x="-8" y="-8" width="1382" height="754" extended-state="7" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33011273" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -521,7 +535,7 @@
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2579425" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -590,8 +604,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="15" selection-end-column="17" />
+        <state relative-caret-position="268">
+          <caret line="30" column="27" lean-forward="true" selection-start-line="30" selection-start-column="27" selection-end-line="30" selection-end-column="27" />
           <folding />
         </state>
       </provider>
