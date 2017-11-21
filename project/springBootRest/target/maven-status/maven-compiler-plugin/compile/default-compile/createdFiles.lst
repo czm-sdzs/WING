@@ -1,3 +1,5 @@
-com\ace\sbr\api\HelloWorldApi.class
-com\ace\sbr\domain\CitypPOJO.class
-com\ace\sbr\dao\HelloWorldDao.class
+com\wing\ace\Application.class
+com\wing\ace\jzvz\springboot\dao\TestDao.class
+com\wing\ace\jzvz\springboot\domain\CityPOJO.class
+com\wing\ace\jzvz\springboot\services\TestServices.class
+com\wing\ace\jzvz\springboot\api\TestApi.class
