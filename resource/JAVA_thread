@@ -1,0 +1,10 @@
+多线程获取线程池
+ExecutorService fixedThreadPool = Executors.newFixedThreadPool(3);
+  for(int i=0;i<3 i++){
+    fixedThreadPool.execute(new Runnable(){
+      @Override
+      public void run(){
+        kafkaConsumerService.getInstance();
+      }
+    });
+  }
