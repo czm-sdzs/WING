@@ -1,0 +1,7 @@
+//替换
+"a.b.c.d".replace(/\./g,"_");
+"a.b.c.d".replace(/\./,function(e){
+  if(e ==="."){
+    return "_";
+  }
+})
