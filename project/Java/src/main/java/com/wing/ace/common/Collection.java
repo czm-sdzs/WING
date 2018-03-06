@@ -9,6 +9,7 @@ import java.util.ArrayList;
  * author stephen.cui
  * date 2017/11/3 22:06
  **/
+ 
 public class Collection {
 
     public static void main(String[] args) {
