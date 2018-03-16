@@ -11,7 +11,7 @@
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
-      <module name="Java" target="1.5" />
+      <module name="Java" target="1.7" />
       <module name="JavaUtil" target="1.5" />
     </bytecodeTargetLevel>
   </component>

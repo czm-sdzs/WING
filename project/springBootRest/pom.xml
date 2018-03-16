@@ -10,7 +10,7 @@
         <tomcat-jdbc.version>7.0.52</tomcat-jdbc.version>
         <jdbc.driver.version>5.1.39</jdbc.driver.version>
     </properties>
-   
+
     <!-- Spring Boot -->
     <parent>
         <groupId>org.springframework.boot</groupId>
@@ -74,8 +74,19 @@
             <plugin>
                 <groupId>org.springframework.boot</groupId>
                 <artifactId>spring-boot-maven-plugin</artifactId>
+                <configuration>
+                    <mainClass>com.wing.ace.Application</mainClass>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>repackage</goal>
+                        </goals>
+                    </execution>
+                </executions>
             </plugin>
         </plugins>
+
     </build>
 
    

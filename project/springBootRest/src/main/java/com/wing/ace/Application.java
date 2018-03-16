@@ -10,6 +10,7 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
  * author stephen.cui
  * date 2017/3/29 23:29
  **/
+
 @SpringBootApplication
 public class Application {
     public static void main(String[] args) {

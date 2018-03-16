@@ -22,6 +22,7 @@ public class TestApi {
     public String test(){
         return "hello test";
     }
+
     @RequestMapping(value = {"/get"})
     public List<CityPOJO> getCity(int id){
         List<CityPOJO> list = testServices.getCity(id);
