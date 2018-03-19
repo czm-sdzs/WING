@@ -1,0 +1,17 @@
+压缩和解压
+  压缩zip
+    压缩带密码：zip -r -P密码 filename.zip dir
+    压缩目录：zip -r filename.zip dir
+    压缩文件： zip filename.zip file
+  解压zip：unzip -o -P密码 filename.zip
+  解压tar: tar -xvf xxx.tar
+
+查询
+    grep -rn "keyword" ./ | grep -v tmp_script
+
+行处理
+awk -F ',' '{if(NF ==8 ){print $0 }}' t >> s.txt --处理文件t,根据‘,’分割，长度为8的写到s.txt文件中
+
+查看文件
+    du -h --max-depth=1
+    du -h --max-depth=0

@@ -1,6 +1,6 @@
-package com.wing.ace.jzvz.springboot.common.jdbc;
+package com.wing.ace.common.jdbc;
 
-import com.wing.ace.jzvz.springboot.tool.ReadPropert;
+import com.wing.ace.common.PropertiesLoaderUtil;
 
 import java.sql.Connection;
 import java.sql.DriverManager;
@@ -17,7 +17,7 @@ public class JdbcUtil {
      *
      */
     public static  Connection  getConnect(){
-        ReadPropert rp = new ReadPropert();
+        PropertiesLoaderUtil rp = new PropertiesLoaderUtil();
         Connection conn =null;
         Hashtable hashtable = rp.getC3p0Property();
         String driver = hashtable.get("driver-class-name").toString();

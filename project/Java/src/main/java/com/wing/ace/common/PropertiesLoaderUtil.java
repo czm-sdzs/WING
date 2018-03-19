@@ -7,10 +7,7 @@ import java.io.BufferedInputStream;
 import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
-import java.util.HashMap;
-import java.util.Iterator;
-import java.util.Map;
-import java.util.Properties;
+import java.util.*;
 
 /**
  * Create By: CuiBo
@@ -77,6 +74,24 @@ public class PropertiesLoaderUtil {
         }
         LOGGER.info("config.properties:{}",map.toString());
         return map;
+    }
+
+    /**
+     * 读取c3p0
+     * @return
+     */
+    public Hashtable getC3p0Property(){
+        Hashtable hashtable = new Hashtable();
+        Properties p = new Properties();
+        try {
+            InputStream is=Thread.currentThread().getContextClassLoader().getSystemResourceAsStream("c3p0.properties");
+            p.load(is);
+            hashtable = (Hashtable)p;
+            LOGGER.info(p.toString());
+        } catch (IOException e) {
+            e.printStackTrace();
+        }
+        return hashtable;
     }
 
 }

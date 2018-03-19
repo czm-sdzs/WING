@@ -1,39 +1,39 @@
-<!--<?xml version="1.0" encoding="UTF-8" ?>-->
-<!--<beans xmlns="http://www.springframework.org/schema/beans"-->
-       <!--xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"-->
-       <!--xmlns:context="http://www.springframework.org/schema/context"-->
-       <!--xsi:schemaLocation="http://www.springframework.org/schema/beans-->
-     <!--http://www.springframework.org/schema/beans/spring-beans-3.0.xsd-->
-     <!--http://www.springframework.org/schema/context-->
-     <!--http://www.springframework.org/schema/context/spring-context-3.0.xsd">-->
+<?xml version="1.0" encoding="UTF-8" ?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xmlns:context="http://www.springframework.org/schema/context"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans
+     http://www.springframework.org/schema/beans/spring-beans-3.0.xsd
+     http://www.springframework.org/schema/context
+     http://www.springframework.org/schema/context/spring-context-3.0.xsd">
 
 
-    <!--&lt;!&ndash; 数据源配置, 使用Tomcat JDBC连接池 &ndash;&gt;-->
-    <!--<bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource"-->
-          <!--destroy-method="close">-->
-        <!--&lt;!&ndash; Connection Info &ndash;&gt;-->
-        <!--<property name="driverClassName" value="${jdbc.driver}" />-->
-        <!--<property name="url" value="${jdbc.url}" />-->
-        <!--<property name="username" value="${jdbc.username}" />-->
-        <!--<property name="password" value="${jdbc.password}" />-->
+    <!-- 数据源配置, 使用Tomcat JDBC连接池 -->
+    <bean id="dataSource" class="org.apache.tomcat.jdbc.pool.DataSource"
+          destroy-method="close">
+        <!-- Connection Info -->
+        <property name="driverClassName" value="${jdbc.driver}" />
+        <property name="url" value="${jdbc.url}" />
+        <property name="username" value="${jdbc.username}" />
+        <property name="password" value="${jdbc.password}" />
 
-        <!--&lt;!&ndash; Connection Pooling Info &ndash;&gt;-->
-        <!--<property name="maxActive" value="10" />-->
-        <!--<property name="maxIdle" value="50" />-->
-        <!--<property name="minIdle" value="0" />-->
-        <!--<property name="defaultAutoCommit" value="false" />-->
-    <!--</bean>-->
+        <!-- Connection Pooling Info -->
+        <property name="maxActive" value="10" />
+        <property name="maxIdle" value="50" />
+        <property name="minIdle" value="0" />
+        <property name="defaultAutoCommit" value="false" />
+    </bean>
 
 
-    <!--&lt;!&ndash; MyBatis配置 &ndash;&gt;-->
-    <!--<bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">-->
-        <!--<property name="dataSource" ref="dataSource" />-->
-        <!--&lt;!&ndash; 自动扫描entity目录, 省掉Configuration.xml里的手工配置 &ndash;&gt;-->
-        <!--<property name="typeAliasesPackage" value="com.wing.ace.jzvz.springboot.domain" />-->
-        <!--&lt;!&ndash; 显式指定Mapper文件位置 &ndash;&gt;-->
-        <!--<property name="mapperLocations" value="classpath:/mapper/*Mapper.xml" />-->
-    <!--</bean>-->
+    <!-- MyBatis配置 -->
+    <bean id="sqlSessionFactory" class="org.mybatis.spring.SqlSessionFactoryBean">
+        <property name="dataSource" ref="dataSource" />
+        <!-- 自动扫描entity目录, 省掉Configuration.xml里的手工配置 -->
+        <property name="typeAliasesPackage" value="com.wing.ace.jzvz.springboot.domain" />
+        <!-- 显式指定Mapper文件位置 -->
+        <property name="mapperLocations" value="classpath:/mapper/*Mapper.xml" />
+    </bean>
 
-<!--</beans>-->
+</beans>
 
 
