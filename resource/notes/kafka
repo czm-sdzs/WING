@@ -1,6 +1,0 @@
-·kafka消息保存：partition物理上由多个segment组;segment file组成：由2大部分组成，分别为index“.log”分别表示为segment索引文件、数据文件;索引文件存储
-大量元数据，数据文件存储大量消息，索引文件中元数据指向对应数据文件中message的物理偏移地址。
-·kafka Partition分发策略：为了更好的实现负载均衡和消息的顺序性，Kafka Producer可以通过分发策略发送给指定的Partition。Kafka保证在partition中的消息是
-有序的;一种是指定partition，另一种就是根据Key自己写算法。继承Partitioner接口，实现其partition方法。并且配置启动参数
-·副本放置策略：同一个Partition可能会有多个Replica，而这时需要在这些Replication之间选出一个Leader，Producer和Consumer只与这个Leader交互，其它Replica
-作为Follower从Leader中复制数据。

@@ -2,42 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="8980f1dd-465b-4e66-908b-f044441ef7e8" name="Default" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.idea/workspace.xml" afterPath="$PROJECT_DIR$/../../.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../Java/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/../Java/.idea/modules.xml" afterPath="$PROJECT_DIR$/../Java/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/../Java/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../Java/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../Java/Java.iml" afterPath="$PROJECT_DIR$/../Java/Java.iml" />
-      <change beforePath="$PROJECT_DIR$/../Java/target/classes/com/wing/ace/arithmetic/SortArithmetic.class" afterPath="$PROJECT_DIR$/../Java/target/classes/com/wing/ace/arithmetic/SortArithmetic.class" />
-      <change beforePath="$PROJECT_DIR$/../Java/target/classes/com/wing/ace/common/Collection.class" afterPath="$PROJECT_DIR$/../Java/target/classes/com/wing/ace/common/Collection.class" />
-      <change beforePath="$PROJECT_DIR$/../Java/target/classes/com/wing/ace/common/TypeCast.class" afterPath="$PROJECT_DIR$/../Java/target/classes/com/wing/ace/common/TypeCast.class" />
-      <change beforePath="$PROJECT_DIR$/../Java/target/classes/com/wing/ace/common/data_sign/DataSignTest.class" afterPath="$PROJECT_DIR$/../Java/target/classes/com/wing/ace/common/data_sign/DataSignTest.class" />
-      <change beforePath="$PROJECT_DIR$/../Java/target/test-classes/TypeCastTest.class" afterPath="$PROJECT_DIR$/../Java/target/test-classes/TypeCastTest.class" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/springBootMybatisweb.iml" afterPath="$PROJECT_DIR$/springBootMybatisweb.iml" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/.idea/compiler.xml" afterPath="$PROJECT_DIR$/../springBootRest/.idea/compiler.xml" />
       <change beforePath="$PROJECT_DIR$/../springBootRest/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../springBootRest/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/pom.xml" afterPath="$PROJECT_DIR$/../springBootRest/pom.xml" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/springBootRest.iml" afterPath="$PROJECT_DIR$/../springBootRest/springBootRest.iml" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/src/main/java/com/wing/ace/Application.java" afterPath="$PROJECT_DIR$/../springBootRest/src/main/java/com/wing/ace/Application.java" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/src/main/java/com/wing/ace/jzvz/springboot/api/TestApi.java" afterPath="$PROJECT_DIR$/../springBootRest/src/main/java/com/wing/ace/jzvz/springboot/api/TestApi.java" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/src/main/resources/application.properties" afterPath="$PROJECT_DIR$/../springBootRest/src/main/resources/application.properties" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/src/main/resources/c3p0.properties" afterPath="$PROJECT_DIR$/../springBootRest/src/main/resources/c3p0.properties" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/application.properties" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/application.properties" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/applicationContext.xml" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/applicationContext.xml" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/c3p0.properties" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/c3p0.properties" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/Application.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/Application.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/api/TestApi.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/api/TestApi.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/common/file/FileConcrete.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/common/file/FileConcrete.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/common/file/FileUtil.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/common/file/FileUtil.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/common/jdbc/JdbcUtil.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/common/jdbc/JdbcUtil.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/dao/TestDao.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/dao/TestDao.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/domain/CityPOJO.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/domain/CityPOJO.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/services/TestServices.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/services/TestServices.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/tool/ReadPropert.class" afterPath="$PROJECT_DIR$/../springBootRest/target/classes/com/wing/ace/jzvz/springboot/tool/ReadPropert.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/test-classes/FileConcreteTest.class" afterPath="$PROJECT_DIR$/../springBootRest/target/test-classes/FileConcreteTest.class" />
-      <change beforePath="$PROJECT_DIR$/../springBootRest/target/test-classes/ReadPropertTest.class" afterPath="$PROJECT_DIR$/../springBootRest/target/test-classes/ReadPropertTest.class" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -62,8 +29,8 @@
       <file leaf-file-name="pom.xml" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="159">
-              <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+            <state relative-caret-position="119">
+              <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
               <folding />
             </state>
           </provider>
@@ -160,31 +127,12 @@
     </navigator>
     <panes>
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="springBootMybatisweb" type="b2602c69:ProjectViewProjectNode" />
               <item name="springBootMybatisweb" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootMybatisweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootMybatisweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootMybatisweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootMybatisweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="springBootMybatisweb" type="b2602c69:ProjectViewProjectNode" />
-              <item name="springBootMybatisweb" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="webapp" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="springBootMybatisweb" type="b2602c69:ProjectViewProjectNode" />
@@ -197,6 +145,7 @@
       </pane>
       <pane id="Scratches" />
       <pane id="PackagesPane" />
+      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -514,12 +463,13 @@
       <workItem from="1520487263507" duration="586000" />
       <workItem from="1520557594893" duration="630000" />
       <workItem from="1520578911658" duration="5211000" />
-      <workItem from="1521169453211" duration="4404000" />
+      <workItem from="1521169453211" duration="4994000" />
+      <workItem from="1521423412132" duration="1709000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="14856000" />
+    <option name="totallyTimeSpent" value="17155000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -543,20 +493,20 @@
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32956383" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3323263" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.16540785" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Web" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24940239" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Nl-Palette" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -582,6 +532,22 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="374">
+          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/webapp/WEB-INF/web.xml">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -714,8 +680,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="159">
-          <caret line="22" column="43" lean-forward="false" selection-start-line="22" selection-start-column="43" selection-end-line="22" selection-end-column="43" />
+        <state relative-caret-position="119">
+          <caret line="7" column="31" lean-forward="true" selection-start-line="7" selection-start-column="31" selection-end-line="7" selection-end-column="31" />
           <folding />
         </state>
       </provider>
