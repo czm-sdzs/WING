@@ -6,6 +6,7 @@
 
     <groupId>com.wing</groupId>
     <artifactId>ace</artifactId>
+    <packaging>pom</packaging>
     <!--<packaging>pom</packaging>-->
     <version>1.0-SNAPSHOT</version>
 
@@ -13,6 +14,8 @@
         <module>java-common</module>
         <module>persistent-data</module>
         <module>springBoot-demo</module>
+        <module>scala-common</module>
+        <module>hadoop</module>
     </modules>
 
 

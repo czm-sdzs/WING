@@ -1,4 +1,4 @@
-package com.wing.ace.common.file;
+package com.wing.common.file;
 
 
 import com.wing.ace.common.jdbc.JdbcUtil;
