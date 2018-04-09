@@ -1,5 +1,7 @@
-package com.wing.common.data_sign;
+package com.wing.common.sign;
 
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import sun.misc.BASE64Decoder;
 import sun.misc.BASE64Encoder;
 
@@ -13,10 +15,11 @@ import java.util.Map;
 
 /**
  * Create By: CuiBo
- * Date: 2018/3/7 15:33
- * Description: RSA 处理公钥和私钥公用方法
+ * Date: 2018/3/12 9:56
+ * Description:
  */
 public class RSACommon {
+    private static final Logger LOGGER = LoggerFactory.getLogger(RSACommon.class);
 
     /**
      * @Author: CuiBo
@@ -89,7 +92,6 @@ public class RSACommon {
     public static void main(String[] args) {
         //生成公钥私钥
         Map map = RSA.getMD5withRSAKey();
-        System.out.println(map);
+        LOGGER.info("密钥：{}",map);
     }
-
 }

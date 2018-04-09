@@ -7,6 +7,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
+import org.springframework.cache.annotation.Cacheable;
 import org.springframework.stereotype.Component;
 
 import java.io.IOException;
@@ -78,7 +79,7 @@ public class HbaseOperation {
      * @Return:
      * @Date : 2018/3/28 9:17
      */
-
+    @Cacheable(value = "permission")
     public Result getResultByRowKeyColumn(String tableName, String rowKey, String family, String qualifier) {
         Result result = null;
         HConnection connection = null;

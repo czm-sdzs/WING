@@ -1,6 +1,6 @@
-package com.wing.common.data_sign;
+package com.wing.common.sign;
 
-import com.wing.common.TypeCast;
+import com.wing.common.Base64Cast;
 
 import javax.crypto.Cipher;
 import java.security.MessageDigest;
@@ -9,11 +9,10 @@ import java.security.PublicKey;
 
 /**
  * Create By: CuiBo
- * Date: 2018/3/5 15:08
- * Description: 数据签名验签
+ * Date: 2018/3/12 10:07
+ * Description:
  */
 public class MD5withRSA {
-
     /**
      * @Author: CuiBo
      * @Description: 使用base64编译数字签名
@@ -22,25 +21,13 @@ public class MD5withRSA {
      * @Date : 2018/3/8 13:52
      */
 
-    public static String getSign(String contentBytes, String privateKeyStr)throws Exception{
-        byte[] contentSignBytes = sign(contentBytes.getBytes(),privateKeyStr);
-        String contentSignStr = TypeCast.byteEncryptBASE64Str(contentSignBytes);
+    public static String getSign(String contentBytes, String privateKeyStr) throws Exception {
+        byte[] contentSignBytes = sign(contentBytes.getBytes(), privateKeyStr);
+        String contentSignStr = Base64Cast.byteEncryptBASE64Str(contentSignBytes);
         return contentSignStr;
     }
 
-//    /**
-//     * @Author: CuiBo
-//     * @Description:
-//     * @Params:
-//     * @Return:
-//     * @Date : 2018/3/8 14:16
-//     */
-//
-//    public static String getSign(byte[] contentBytes, String privateKeyStr)throws Exception{
-//        byte[] contentSignBytes = sign(contentBytes,privateKeyStr);
-//        String contentSignStr = TypeCast.byteEncryptBASE64Str(contentSignBytes);
-//        return contentSignStr;
-//    }
+
     /**
      * @Author: CuiBo
      * @Description: 生成数字签名
@@ -65,40 +52,28 @@ public class MD5withRSA {
 
     /**
      * @Author: CuiBo
-     * @Description: 
-     * @Params: 
-     * @Return: 
-     * @Date : 2018/3/8 14:08
+     * @Description:
+     * @Params:
+     * @Return:
+     * @Date : 2018/3/13 14:08
      */
-     
-    public static boolean getVerify(String content,String signData,String publicKeyStr)throws Exception{
+
+    public static boolean getVerify(String content, String signData, String publicKeyStr) throws Exception {
         //将传输的原摘要处理为byte[]
         byte[] contentBytes = content.getBytes();
         //数字签名使用base64转为byte[]
-        byte[] signDataBytes = TypeCast.base64String2Byte(signData);
-        return verify(contentBytes,signDataBytes,publicKeyStr);
+        byte[] signDataBytes = Base64Cast.base64String2Byte(signData);
+        return verify(contentBytes, signDataBytes, publicKeyStr);
     }
 
-//    /**
-//     * @Author: CuiBo
-//     * @Description:
-//     * @Params:
-//     * @Return:
-//     * @Date : 2018/3/8 14:08
-//     */
-//
-//    public static boolean getVerify(byte[] contentBytes,String signData,String publicKeyStr)throws Exception{
-//        //数字签名使用base64转为byte[]
-//        byte[] signDataBytes = TypeCast.base64String2Byte(signData);
-//        return verify(contentBytes,signDataBytes,publicKeyStr);
-//    }
-/**
- * @Author: CuiBo
- * @Description: 验证数字签名
- * @Params:
- * @Return:
- * @Date : 2018/3/7 17:32
- */
+
+    /**
+     * @Author: CuiBo
+     * @Description: 验证数字签名
+     * @Params:
+     * @Return:
+     * @Date : 2018/3/12 17:32
+     */
     private static boolean verify(byte[] contentBytes, byte[] signData,
                                   String publicKeyStr) throws Exception {
         PublicKey publicKey = RSACommon.getPublicKey(publicKeyStr);
@@ -117,13 +92,11 @@ public class MD5withRSA {
         String decrytStr = RSACommon.encryptBASE64(decrytBytes);
         String srcStr = RSACommon.encryptBASE64(srcBytes);
         //数字摘要
-        if(decrytStr.equals(srcStr)) {
-            System.out.println("验证成功，传送的内容为:" + new String(contentBytes));
+        if (decrytStr.equals(srcStr)) {
             return true;
         } else {
             return false;
         }
     }
-
 
 }

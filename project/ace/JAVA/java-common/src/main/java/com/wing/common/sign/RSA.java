@@ -1,4 +1,4 @@
-package com.wing.common.data_sign;
+package com.wing.common.sign;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
@@ -12,8 +12,8 @@ import java.util.Map;
 
 /**
  * Create By: CuiBo
- * Date: 2018/3/7 9:23
- * Description: 使用MD5withRSA 方式获取公钥和私钥
+ * Date: 2018/3/12 9:48
+ * Description:
  */
 public class RSA {
     private static Logger LOGGER = LoggerFactory.getLogger(RSA.class);
@@ -48,13 +48,13 @@ public class RSA {
         return rsa;
     }
 
-   /**
-    * @Author: CuiBo
-    * @Description: 获取公钥对象
-    * @Params:
-    * @Return:
-    * @Date : 2018/3/7 16:23
-    */
+    /**
+     * @Author: CuiBo
+     * @Description: 获取公钥对象
+     * @Params:
+     * @Return:
+     * @Date : 2018/3/7 16:23
+     */
 
     private PublicKey getPublicKey() {
         return keyPair.getPublic();
@@ -73,13 +73,13 @@ public class RSA {
     }
 
 
-/**
- * @Author: CuiBo
- * @Description: 获取BASE64编译后的公钥和私钥
- * @Params:
- * @Return:
- * @Date : 2018/3/7 16:38
- */
+    /**
+     * @Author: CuiBo
+     * @Description: 获取BASE64编译后的公钥和私钥
+     * @Params:
+     * @Return:
+     * @Date : 2018/3/7 16:38
+     */
 
     public static Map<String,String> getMD5withRSAKey(){
         //生成公钥私钥，用于生成数字签名
