@@ -10,11 +10,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <artifactId>JAVA</artifactId>
+    <packaging>pom</packaging>
 
     <modules>
         <module>bd</module>
         <module>java-common</module>
         <module>springBoot-demo</module>
+        <module>db</module>
     </modules>
 
 
