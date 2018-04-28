@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE configuration>
+<configuration debug="true" scan="false" scanPeriod="30 seconds"><!-- 'milliseconds','seconds','minutes' and 'hours' -->
+	<contextName>dc-ds-provide</contextName>
+	 <!--<Property name="log.base" value="E:/logs" />-->
+	<Property name="log.name" value="dc-ds-provide" />
+	<jmxConfigurator />
+	<!-- 控制台输出日志 -->
+	<appender name="STDOUT" class="ch.qos.logback.core.ConsoleAppender">
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<pattern>%-5level [%contextName] %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %logger - %msg%n</pattern>
+		</encoder>
+	</appender>
+	<!-- 文件输出日志 (文件大小策略进行文件输出，超过指定大小对文件备份) -->
+	<appender name="FILE" class="ch.qos.logback.core.rolling.RollingFileAppender">
+		<File>${log.base}/${log.name}.log</File>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"><!-- rollover daily -->
+			<FileNamePattern>${log.base}/${log.name}-log-%d{yyyy-MM-dd}.%i.zip</FileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP"> 
+				<maxFileSize>50MB</maxFileSize><!-- or whenever the file size reaches 5MB -->
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<!-- <maxHistory></maxHistory> -->
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>%-5level [%contextName] %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %logger.%method - %msg%n</Pattern>
+		</encoder>
+	</appender>
+
+	<appender name ="asyncFile" class= "ch.qos.logback.classic.AsyncAppender">
+		<!-- 不丢失日志.默认的,如果队列的80%已满,则会丢弃TRACT、DEBUG、INFO级别的日志 -->
+		<discardingThreshold >0</discardingThreshold>
+		<!-- 更改默认的队列的深度,该值会影响性能.默认值为256 -->
+		<queueSize>2048</queueSize>
+		<includeCallerData>false</includeCallerData>
+		<!-- 添加附加的appender,最多只能添加一个 -->
+		<appender-ref ref ="FILE"/>
+	</appender>
+
+	<appender name="FILE-ERROR" class="ch.qos.logback.core.rolling.RollingFileAppender">	
+		<filter class="ch.qos.logback.classic.filter.LevelFilter">
+			<level>ERROR</level>
+			<OnMismatch>DENY</OnMismatch>
+			<OnMatch>ACCEPT</OnMatch>
+		</filter>
+		<filter class="ch.qos.logback.classic.filter.ThresholdFilter">
+			<level>WARN</level><!-- WARN以下的拒绝,等于或以上的中立 -->
+		</filter>
+		<File>${log.base}/${log.name}-err.log</File>
+		<rollingPolicy class="ch.qos.logback.core.rolling.TimeBasedRollingPolicy"><!-- rollover daily -->
+			<FileNamePattern>${log.base}/${log.name}-error_log-%d{yyyy-MM-dd}.%i.zip</FileNamePattern>
+			<timeBasedFileNamingAndTriggeringPolicy class="ch.qos.logback.core.rolling.SizeAndTimeBasedFNATP"> 
+				<maxFileSize>50MB</maxFileSize><!-- or whenever the file size reaches 5MB -->
+			</timeBasedFileNamingAndTriggeringPolicy>
+			<maxHistory>10</maxHistory>
+		</rollingPolicy>
+		<encoder class="ch.qos.logback.classic.encoder.PatternLayoutEncoder">
+			<Pattern>%-5level [%contextName] %d{yyyy-MM-dd HH:mm:ss.SSS} [%thread] %logger.%method - %msg%n</Pattern>
+		</encoder>
+	</appender>
+
+	<root level="INFO">
+		<appender-ref ref="STDOUT" />
+		<appender-ref ref="asyncFile" />
+		<appender-ref ref="FILE-ERROR" />
+	</root>
+
+	<!--这里指定logger name 是为jmx设置日志级别做铺垫 -->
+	<logger name="com.lakala" additivity="true" level="INFO" />
+	<logger name="org.springframework" additivity="true" level="INFO" />
+	<logger name="com.alibaba" additivity="true" level="ERROR" />
+</configuration>
