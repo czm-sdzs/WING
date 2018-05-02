@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/JAVA.iml" filepath="$PROJECT_DIR$/JAVA.iml" />
+      <module fileurl="file://$PROJECT_DIR$/dbcommon/dbcommon.iml" filepath="$PROJECT_DIR$/dbcommon/dbcommon.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java-common/java-common.iml" filepath="$PROJECT_DIR$/java-common/java-common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-demo/springBoot-demo.iml" filepath="$PROJECT_DIR$/springBoot-demo/springBoot-demo.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-demo/springBoot-dubbo-zookeeper/springBoot-dubbo-api/springBoot-dubbo-api.iml" filepath="$PROJECT_DIR$/springBoot-demo/springBoot-dubbo-zookeeper/springBoot-dubbo-api/springBoot-dubbo-api.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-demo/springBoot-dubbo-zookeeper/springBoot-dubbo-consumer/springBoot-dubbo-consumer.iml" filepath="$PROJECT_DIR$/springBoot-demo/springBoot-dubbo-zookeeper/springBoot-dubbo-consumer/springBoot-dubbo-consumer.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-demo/springBoot-dubbo-zookeeper/springBoot-dubbo-provide/springBoot-dubbo-provide.iml" filepath="$PROJECT_DIR$/springBoot-demo/springBoot-dubbo-zookeeper/springBoot-dubbo-provide/springBoot-dubbo-provide.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-demo/springBoot-dubbo-zookeeper/springBoot-dubbo-zookeeper.iml" filepath="$PROJECT_DIR$/springBoot-demo/springBoot-dubbo-zookeeper/springBoot-dubbo-zookeeper.iml" />
+      <module fileurl="file://$PROJECT_DIR$/springBoot-demo/springBoot-mybatis-mysql/springBoot-mybatis-mysql.iml" filepath="$PROJECT_DIR$/springBoot-demo/springBoot-mybatis-mysql/springBoot-mybatis-mysql.iml" />
+    </modules>
+  </component>
+</project>
