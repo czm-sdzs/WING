@@ -8,22 +8,28 @@
         <outputRelativeToContentRoot value="true" />
         <module name="dbcommon" />
         <module name="java-common" />
+        <module name="javacommon" />
         <module name="springBoot-dubbo-api" />
         <module name="springBoot-dubbo-consumer" />
         <module name="springBoot-dubbo-provide" />
         <module name="springBoot-mybatis-mysql" />
+        <module name="springBoot-package-assembly" />
+        <module name="springBoot-package-config" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="dbcommon" target="1.7" />
       <module name="JAVA" target="1.7" />
       <module name="java-common" target="1.7" />
+      <module name="javacommon" target="1.7" />
       <module name="springBoot-demo" target="1.7" />
       <module name="springBoot-dubbo-api" target="1.7" />
       <module name="springBoot-dubbo-consumer" target="1.7" />
       <module name="springBoot-dubbo-provide" target="1.7" />
       <module name="springBoot-dubbo-zookeeper" target="1.7" />
       <module name="springBoot-mybatis-mysql" target="1.7" />
+      <module name="springBoot-package-assembly" target="1.8" />
+      <module name="springBoot-package-config" target="1.7" />
     </bytecodeTargetLevel>
   </component>
 </project>

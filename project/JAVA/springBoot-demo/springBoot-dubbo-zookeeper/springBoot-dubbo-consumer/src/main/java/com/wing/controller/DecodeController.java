@@ -35,5 +35,6 @@ public class DecodeController {
         LOGGER.info("decode str:"+str);
         String result = decodeService.decode(str);
         return ResponseUtil.succeed(result);
+
     }
 }

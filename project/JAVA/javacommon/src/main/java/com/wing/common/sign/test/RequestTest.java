@@ -1,4 +1,4 @@
-//package com.wing.common.sign.test;
+package com.wing.common.sign.test;//package com.wing.common.sign.test;
 //
 //import com.wing.http.HttpRequest;
 //import net.sf.json.JSONObject;

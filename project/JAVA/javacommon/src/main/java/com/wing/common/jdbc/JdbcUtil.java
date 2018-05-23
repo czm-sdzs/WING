@@ -1,4 +1,4 @@
-//package com.wing.common.jdbc;
+package com.wing.common.jdbc;//package com.wing.common.jdbc;
 //
 //import com.wing.common.PropertiesLoaderUtil;
 //

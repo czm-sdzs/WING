@@ -1,4 +1,4 @@
-//package com.wing.common.sign.test;
+package com.wing.common.sign.test;//package com.wing.common.sign.test;
 //
 //import com.wing.common.sign.MD5withRSA;
 //import net.sf.json.JSONArray;

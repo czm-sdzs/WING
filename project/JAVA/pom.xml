@@ -10,6 +10,9 @@
     <version>1.0-SNAPSHOT</version>
     <modules>
         <module>dbcommon</module>
+        <module>java-common</module>
+        <module>springBoot-demo</module>
+        <module>javacommon</module>
     </modules>
 
 

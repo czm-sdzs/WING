@@ -1,4 +1,4 @@
-//package com.wing.common.file;
+package com.wing.common.file;//package com.wing.common.file;
 //
 //import org.apache.log4j.Logger;
 //

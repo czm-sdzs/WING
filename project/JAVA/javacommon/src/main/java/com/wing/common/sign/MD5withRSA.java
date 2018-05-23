@@ -1,4 +1,4 @@
-//package com.wing.common.sign;
+package com.wing.common.sign;//package com.wing.common.sign;
 //
 //import com.wing.common.Base64Cast;
 //

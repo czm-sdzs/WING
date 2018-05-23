@@ -1,4 +1,4 @@
-//package com.wing.common;
+package com.wing.common;//package com.wing.common;
 //
 //import org.slf4j.Logger;
 //import org.slf4j.LoggerFactory;

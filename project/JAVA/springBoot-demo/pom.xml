@@ -19,5 +19,7 @@
     <modules>
         <module>springBoot-dubbo-zookeeper</module>
         <module>springBoot-mybatis-mysql</module>
+        <module>springBoot-package-assembly</module>
+        <module>springBoot-package-config</module>
     </modules>
 </project>
