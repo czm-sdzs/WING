@@ -1,0 +1,11 @@
+[
+    {
+        "db_name": "dap",
+        "log_no": "CreditLoan_BusinessLoan_MerchantInfo_Kry",
+        "msg": {"businame":"青浦区","commercialid":"810067437","commercialphone":"18601758121","commercialadress":"上海市青浦区白鹤镇外青松公路3168-8鱼湘阁","trans_time":"1536047084000","tablecount":"32","commercialcontact":"范志荣","cateringstatus":"烧烤","commercialname":"鱼湘阁-","brandname":"鱼湘阁-"},
+        "operator": "cuibo",
+        "type":"a",
+        "user_name": "dap"
+    }
+    
+]

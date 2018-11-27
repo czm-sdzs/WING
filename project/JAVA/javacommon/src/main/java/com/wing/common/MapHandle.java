@@ -1,5 +1,8 @@
 package com.wing.common;
 
+import com.alibaba.fastjson.JSON;
+import net.sf.json.JSONObject;
+
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Set;
@@ -23,8 +26,15 @@ public class MapHandle {
 
 
     public static void main(String[] args) {
-        System.out.println(System.currentTimeMillis());
-        System.out.println(System.currentTimeMillis());
-        System.out.println(System.currentTimeMillis());
+        str2map();
     }
+
+
+    public static void str2map(){
+        String str="{\"auth\":{\"appId\":\"DC-DS\",\"appKey\":\"123456\"},\"data\":{\"AES\":[\"123\",\"abc\"],\"MD5\":[\"13176564356\",\"13476587699\"]}}";
+        Map map = com.alibaba.fastjson.JSONObject.parseObject(str,Map.class);
+        System.out.println(map);
+    }
+
+
 }

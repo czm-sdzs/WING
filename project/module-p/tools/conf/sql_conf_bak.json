@@ -1,0 +1,35 @@
+[
+    {
+        "db_name": "dap",
+        "log_no": "CreditLoan_BusinessLoan_MerchantInfo",
+        "msg": {"productNo":"SQB","gatewayReceiveTime":null,"hostIp":null,"gatewayHostIp":"192.168.11.18","mer_no":"me_code_0","calltime":"201804232344","hostName":null,"eventChannel":"kafka","mer_time":"1511763250137","operateType":"ADD","channelId":"OTHER","appNodeNo":null,"eventDataType":"biz","dataPlatformNodeNo":"1","mer_bankcard":"85NANL01pVCVeYMJpb66Mm7hsbXuzkHsD9MwxSVU9d0=","protocolVersion":"1.0.6","mer_province":"sss","sessionId":"ffe205dc-1561-4358-9f12-e71a6a87e66c","receiveTime":1533701097577,"bizType":"INTERFACE","trans_type":"realTime","merchantNo":"CreditLoan","channelEnum":"ChannelEnum_OTHER","mer_change_time":"","clientType":"http","mer_detailed_address":"2V4G5K5linFhDmncr8IZgw==","orgNo":"SQB","bizTypeEnum":"BizTypeEnum_INTERFACE","mer_two":"sss","mer_user":"2V4G5K5linFhDmncr8IZgw==","modelNo":"SQB","operateTypeEnum":"OperateTypeEnum_ADD","mer_one":"sss","mer_change_boss":"sss","gatewayNodeNo":"1","bizNo":"SQB","mer_uphone":"Rv3NHb51Ifj2A6dC6qBiKQ==","merchantNum":2,"dataPlatformHostIp":"127.0.0.1","mer_bank":"sss","logNo":"CreditLoan_BusinessLoan_MerchantInfo","systemCode":"CreditLoan","process":null,"mer_city":"sss","trans_time":1533700960887,"collectTime":1533700960888,"mer_district":"sss","mer_name":"dddd0","mer_ucerno":"WEzdYnevjnyuG85CcnJAq4863OxIKWy0vRUIASV7hP8=","innerSessionId":"39D2E7BD373A4211926A71AD0324106C"},
+        "operator": "cuibo",
+        "type":"a",
+        "user_name": "dap"
+    },
+    {
+        "db_name": "dap",
+        "log_no": "CreditLoan_BusinessLoan_MerchantFlow",
+        "msg": {"productNo":"SQB","gatewayReceiveTime":null,"pay_user_id":"42312423_2_0","hostIp":null,"orgNo":"SQB","gatewayHostIp":"192.168.11.18","bizTypeEnum":"BizTypeEnum_INTERFACE","tf_deal_time":"201804173646","mer_no":"me_code_2","id":"_TD2_0","modelNo":"SQB","sub_tf_deal_type":"支付宝","operateTypeEnum":"OperateTypeEnum_ADD","calltime":"20180401442222","hostName":null,"eventChannel":"kafka","gatewayNodeNo":"1","bizNo":"SQB","tf_deal_type":"网上支付","tf_deal_status":"0","dataPlatformHostIp":"127.0.0.1","logNo":"CreditLoan_BusinessLoan_MerchantFlow","operateType":"ADD","channelId":"OTHER","appNodeNo":null,"systemCode":"CreditLoan","eventDataType":"biz","dataPlatformNodeNo":"1","tf_deal_count":"2351","process":null,"trans_time":1533608115263,"protocolVersion":"1.0.6","collectTime":"2018-08-07 10:15:15","sessionId":"27c75231-3e94-49df-9f3d-81885a9a4fd5","receiveTime":"2018-08-07 10:15:15","bizType":"INTERFACE","merchantNo":"CreditLoan","innerSessionId":"41B34AF70C424E7A805FAD2D3EE9AA55","channelEnum":"ChannelEnum_OTHER","tradeDetailNum":"7","clientType":"http"},
+        "operator": "cuibo",
+        "type":"i",
+        "user_name": "dap"
+    },    
+    {
+        "db_name": "dap",
+        "log_no": "CreditLoan_BusinessLoan_MerchantInfo_Kry",
+        "msg": {"productNo":"KRY","gatewayReceiveTime":null,"tableCount":10,"hostIp":null,"gatewayHostIp":"192.168.11.18","bizTypeEnum":"BizTypeEnum_INTERFACE","commercialName":"客如云101","brandName":"面粉1","busiName":"me_code_1","modelNo":"KRY","commercialPhone":"76eGgQ2vBdQZhenpNsFNEg==","operateTypeEnum":"OperateTypeEnum_ADD","hostName":null,"gatewayNodeNo":"1","eventChannel":"kafka","bizNo":"KRY","commercialContact":"dLUVCFnOoXV6fnO16Ky8EA==","dataPlatformHostIp":"127.0.0.1","operateType":"ADD","logNo":"CreditLoan_BusinessLoan_MerchantInfo_Kry","channelId":"OTHER","commercialId":"1231","appNodeNo":null,"systemCode":"CreditLoan","cateringStatus":"1","eventDataType":"biz","dataPlatformNodeNo":"1","process":null,"trans_time":1533712835502,"protocolVersion":"1.0.6","collectTime":1533712835503,"sessionId":"873dcd22-130c-4310-914a-be41a0599e9b","receiveTime":1533712972386,"bizType":"INTERFACE","commercialAdress":"26ZI/hrKUGTRLv1tvSF7JElavwPeRdTqw8B2WMWMypRMPiWrrmCm0UhiJILmil6s","merchantNo":"CreditLoan","innerSessionId":"A711BAEA41EE49FD84D041342724373E","channelEnum":"ChannelEnum_OTHER","clientType":"http"},
+        "operator": "cuibo",
+        "type":"a",
+        "user_name": "dap"
+    },
+    {
+        "db_name": "dap",
+        "log_no": "CreditLoan_BusinessLoan_MerchantFlow_Kry",
+        "msg": {"productNo":"KRY","tradeType":"已支付","gatewayReceiveTime":null,"hostIp":null,"gatewayHostIp":"192.168.11.18","bizTypeEnum":"BizTypeEnum_INTERFACE","tradeStatusName":"已付款","payMentTime":"201806173646","modelNo":"KRY","operateTypeEnum":"OperateTypeEnum_ADD","hostName":null,"eventChannel":"kafka","gatewayNodeNo":"1","tradeAmount":"23510","bizNo":"KRY","shopActualAmount":"123420","dataPlatformHostIp":"127.0.0.1","payModeName":"现金","logNo":"CreditLoan_BusinessLoan_MerchantFlow_Kry","operateType":"ADD","tradeTime":"201804173646","tradeNo":"_TD2_0","commercialId":"123","channelId":"OTHER","appNodeNo":null,"systemCode":"CreditLoan","eventDataType":"biz","payStatusName":"成功","dataPlatformNodeNo":"1","process":null,"trans_time":1533693717909,"protocolVersion":"1.0.6","collectTime":"2018-08-08 10:01:57","sessionId":"1aef86ae-dc72-4788-a8d1-f318af75efea","receiveTime":"2018-08-08 10:04:14","bizType":"INTERFACE","merchantNo":"CreditLoan","tradeTableId":"12320","innerSessionId":"23619618A82E4C31B7995FADFBD4DE93","actualAmount":"1232","channelEnum":"ChannelEnum_OTHER","tradeDetailNum":"7","clientType":"http","actualPeopleCount":"12345220"},
+        "operator": "cuibo",
+        "type":"i",
+        "user_name": "dap"
+    }
+    
+]
